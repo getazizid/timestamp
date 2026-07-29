@@ -20,7 +20,7 @@ export const Navbar: React.FC<NavbarProps> = ({
         {/* Brand Logo & Title */}
         <div className="flex items-center gap-3">
           <div className="w-9 h-9 rounded-lg bg-zinc-900 border border-zinc-700 flex items-center justify-center p-0.5 shadow-sm">
-            <img src="/sman1batu-logo.svg" alt="SMAN 1 Batu Logo" className="w-7 h-7 object-contain" />
+            <img src="/sman1batu-logo.png" alt="SMAN 1 Batu Logo" className="w-7 h-7 object-contain" />
           </div>
           <div>
             <div className="flex items-center gap-2">

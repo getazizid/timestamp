@@ -57,7 +57,7 @@ export default function App() {
       bgStyle: 'semi-dark',
       fontSizeScale: 1.0,
       fontFamily: 'sans-serif',
-      logoUrl: '/sman1batu-logo.svg',
+      logoUrl: '/sman1batu-logo.png',
       rotation: 0,
       flipHorizontal: false,
     };

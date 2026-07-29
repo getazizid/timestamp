@@ -295,11 +295,11 @@ export const StyleSelector: React.FC<StyleSelectorProps> = ({
 
           <button
             type="button"
-            onClick={() => onLogoUploaded('/sman1batu-logo.svg')}
+            onClick={() => onLogoUploaded('/sman1batu-logo.png')}
             className="py-2.5 px-3 border border-zinc-800 hover:border-zinc-700 rounded-lg bg-zinc-950 hover:bg-zinc-900 text-xs text-zinc-300 font-medium transition-colors flex items-center justify-center gap-1.5"
             title="Gunakan Logo SMAN 1 Batu"
           >
-            <img src="/sman1batu-logo.svg" alt="SMAN 1 Batu" className="w-4 h-4 object-contain" />
+            <img src="/sman1batu-logo.png" alt="SMAN 1 Batu" className="w-4 h-4 object-contain" />
             <span>Gunakan Preset SMAN 1 Batu</span>
           </button>
         </div>
