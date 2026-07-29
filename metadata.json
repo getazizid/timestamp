@@ -1,0 +1,6 @@
+{
+  "name": "Timestamp Foto & Kamera GPS Indonesia",
+  "description": "Aplikasi penambah watermark timestamp, tanggal, jam, dan lokasi GPS Indonesia untuk foto portrait & landscape tanpa database. Dilengkapi deteksi otomatis EXIF foto, preset kota/provinsi Indonesia, custom template stempel, dan unduh resolusi tinggi.",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

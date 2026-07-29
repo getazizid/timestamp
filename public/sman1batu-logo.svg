@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 340" width="300" height="340">
+  <!-- Outer Dark Blue Hexagon -->
+  <polygon points="150,8 285,82 285,258 150,332 15,258 15,82" fill="#0b1b6d" />
+  <!-- Inner White Border Hexagon -->
+  <polygon points="150,16 277,86 277,254 150,324 23,254 23,86" fill="#ffffff" />
+  <!-- Inner Dark Blue Border Hexagon -->
+  <polygon points="150,21 273,88 273,252 150,319 27,252 27,88" fill="#0b1b6d" />
+  <!-- Main Cyan Hexagon Background -->
+  <polygon points="150,26 268,91 268,249 150,314 32,249 32,91" fill="#1cb5e0" />
+
+  <!-- SMA NEGERI 1 Text Path -->
+  <path id="smaArc" d="M 45,130 A 115,115 0 0,1 255,130" fill="none" />
+  <text font-family="Arial, 'Helvetica Neue', sans-serif" font-weight="900" font-size="28" fill="#000000">
+    <textPath href="#smaArc" startOffset="50%" text-anchor="middle">
+      SMA NEGERI 1
+    </textPath>
+  </text>
+
+  <!-- Center Red Circle (Sun) -->
+  <circle cx="150" cy="112" r="33" fill="#e52b28" stroke="#000000" stroke-width="2" />
+
+  <!-- Yellow Hands Holding Circle -->
+  <!-- Left Hand -->
+  <path d="M 102,192 C 102,132 118,102 138,102 C 128,122 126,148 122,192 Z" fill="#fee000" stroke="#000000" stroke-width="2" />
+  <!-- Right Hand -->
+  <path d="M 198,192 C 198,132 182,102 162,102 C 172,122 174,148 178,192 Z" fill="#fee000" stroke="#000000" stroke-width="2" />
+
+  <!-- Red BATU Text -->
+  <text x="150" y="222" font-family="Arial, 'Helvetica Neue', sans-serif" font-weight="900" font-size="32" fill="#e52b28" text-anchor="middle" stroke="#000000" stroke-width="0.5">
+    BATU
+  </text>
+
+  <!-- Open White Book -->
+  <path d="M 150,238 Q 115,225 82,234 L 82,253 Q 115,244 150,254 Q 185,244 218,253 L 218,234 Q 185,225 150,238 Z" fill="#ffffff" stroke="#000000" stroke-width="2.5" />
+  <line x1="150" y1="238" x2="150" y2="254" stroke="#000000" stroke-width="2.5" />
+
+  <!-- Red Border Line above yellow banner -->
+  <line x1="62" y1="268" x2="238" y2="268" stroke="#e52b28" stroke-width="4" />
+
+  <!-- Yellow Motto Banner -->
+  <rect x="62" y="270" width="176" height="34" fill="#fee000" stroke="#000000" stroke-width="2" />
+  <text x="150" y="293" font-family="Arial, 'Helvetica Neue', sans-serif" font-weight="bold" font-size="14" fill="#990000" text-anchor="middle" letter-spacing="1">
+    STUDIUM ET VIRTUS
+  </text>
+</svg>
