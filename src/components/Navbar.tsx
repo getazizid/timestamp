@@ -59,13 +59,7 @@ export const Navbar: React.FC<NavbarProps> = ({
             </button>
           )}
 
-          <button
-            onClick={onOpenHelp}
-            className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-white text-black hover:bg-zinc-200 font-bold text-xs transition-colors shadow-sm"
-          >
-            <HelpCircle className="w-3.5 h-3.5" />
-            <span>Panduan Vercel</span>
-          </button>
+
         </div>
       </div>
     </header>

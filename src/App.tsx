@@ -279,7 +279,7 @@ export default function App() {
       {/* Footer */}
       <footer className="border-t border-zinc-900 bg-black text-zinc-500 py-4 text-center text-xs">
         <div className="max-w-7xl mx-auto px-4 flex flex-col sm:flex-row items-center justify-between gap-2">
-          <p>© {new Date().getFullYear()} TIMESTAMPR by Vercel • Client-Side Photo & GPS Timestamp</p>
+          <p>© {new Date().getFullYear()} TimeStamp by Abdul Aziz • Client-Side Photo & GPS Timestamp</p>
           <p className="text-zinc-600 text-[11px]">
             Diproses 100% lokal di browser (Tanpa Database & Serverless)
           </p>
